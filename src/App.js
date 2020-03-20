@@ -2,7 +2,7 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route, Redirect
 } from "react-router-dom";
 import './App.css';
 import Header from './header/header';
@@ -17,7 +17,7 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/"><Redirect to="/home" />
           </Route>
           <Route path="/home"><Home/></Route>
           <Route path="/tips"><Tips/></Route>

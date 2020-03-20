@@ -45,7 +45,7 @@ export default class Header extends Component {
     return (
       <div>
         <Navbar light expand="md" className="nav-color">
-          <NavbarBrand href="/" className="brand-name">MAKING QUARANTINE EASIER!!</NavbarBrand>
+          <NavbarBrand href="/" className="brand-name">SURVIVING HOME QUARANTINE</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
