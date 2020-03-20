@@ -9,6 +9,7 @@ import {
   NavLink,
 } from 'reactstrap';
 import './header.scss'
+import {Link} from 'react-router-dom';
 
 const links = [
   { href: '/home', text: 'Home' },
@@ -19,7 +20,7 @@ const links = [
 
 const createNavItem = ({ href, text, className }) => (
   <NavItem>
-    <NavLink href={href} className={className}>{text}</NavLink>
+    <NavLink tag={Link} to={href} className={className}>{text}</NavLink>
   </NavItem>
 );
 
