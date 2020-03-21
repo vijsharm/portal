@@ -75,7 +75,7 @@ const Entertainment = () => {
                     Starring: {item.starring}
                 </div>
                 <div className="rating">
-                    Starring: {item.genres}
+                    Genres: {item.genres}
                 </div>
                 <div className="description">
                     {item.description}

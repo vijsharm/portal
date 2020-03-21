@@ -3,7 +3,7 @@ import Handshake from '../assets/images/healthcare/healthcare.gif';
 import Success from '../assets/images/healthcare/success.gif';
 import Stopwatch from './stopwatch';
 const Healthcare = () =>{
-    return <div className="healthcare container">
+    return <div className="healthcare">
         <br/>
         <div className="row">
         <div className="col-md-12 hand-img">
