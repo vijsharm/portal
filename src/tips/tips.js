@@ -17,6 +17,9 @@ const Tips = () =>{
                 <Tab eventKey="others" title="Other Apps">
                     <Entertainment heading="Other Apps" />
                 </Tab>
+                <Tab eventKey="books" title="Books">
+                    <Entertainment heading="Books" />
+                </Tab>
             </Tabs>
             </div>
         </div>
