@@ -89,11 +89,11 @@ const Entertainment = (props) => {
                 Trending on {props.heading}!
             </div>
             <hr/>
-            <div className="bodySection">
-                <div className="col-sm-12">
+            <div className="bodySection col-sm-12">
+                <div>
                     <SlideShow items={primeItems} />
                 </div>
-                <div className="col-sm-12">
+                <div>
                     <div style={{ textAlign: 'center' }}>
                         <ol>
                             {titlesList}
