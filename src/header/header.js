@@ -10,17 +10,19 @@ import {
 } from 'reactstrap';
 import './header.scss'
 import {Link} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome, faHeartbeat, faTv, faRetweet } from '@fortawesome/free-solid-svg-icons';
 
 const links = [
-  { href: '/home', text: 'Home' },
-  { href: '/tips', text: 'Activities Amidst COVID-19' },
-  { href: '/healthcare', text: 'Health Care Tips' },
-  { href: '/blog', text: 'Share Your Stories' }
+  { href: '/home', text: 'Home', icon : faHome },
+  { href: '/tips', text: 'Quarantine And Chill', icon: faTv },
+  { href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
+  { href: '/blog', text: 'Quarantine Stories', icon: faRetweet }
 ];
 
-const createNavItem = ({ href, text, className }) => (
+const createNavItem = ({ href, text, className, icon }) => (
   <NavItem>
-    <NavLink tag={Link} to={href} className={className}>{text}</NavLink>
+    <NavLink tag={Link} to={href} className={className}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}</NavLink>
   </NavItem>
 );
 
