@@ -17,7 +17,7 @@ const Entertainment = () => {
             starring: 'Akshay Kumar, Kareena Kapoor, Diljit Dosanjh, Kiara Advani',
             src: 'https://www.primevideo.com/',
             img: GoodNewz,
-            youtubeLink: 'https://www.youtube.com/embed/WDkg3h8PCVU',
+            youtubeLink: 'https://www.youtube.com/embed/r9VJpqoAr84',
             description: 'Two couples with the same surnames pursue in-vitro fertilization and wait for their upcoming babies. Trouble ensues when they find that the sperms of each couple have been mixed with each other.',
             genres: 'Comedy, Drama, International'
         },
