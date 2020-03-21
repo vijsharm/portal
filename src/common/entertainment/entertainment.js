@@ -9,7 +9,7 @@ import SlideShowCarousel from './SlideShowCarousel';
 import SlideShow from './slideshow2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-const Entertainment = () => {
+const Entertainment = (props) => {
     const primeItems = [
         {
             title: 'Good Newz',
@@ -86,7 +86,7 @@ const Entertainment = () => {
     return (
         <div className="entertainment">
             <div className="heading">
-                Trending on Amazon Prime!
+                Trending on {props.heading}!
             </div>
             <hr/>
             <div className="bodySection">

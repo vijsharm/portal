@@ -1,0 +1,17 @@
+.tips {
+    .nav-link {
+        background-color: #87544c;
+        border-radius: 5px;
+    }
+    .nav-link.active {
+        background-color: #d65b47 !important;
+        color: black;
+    }
+    .nav {
+        a {
+            color: black !important;
+            font-size: 24px;
+            border-radius: 10px;
+        }
+    }
+}
