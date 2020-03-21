@@ -8,7 +8,7 @@ const Healthcare = () =>{
     const showResult=(showCard)=>{
         setShowCard(showCard)
     }
-    return <div className="healthcare container">
+    return <div className="healthcare">
         <br/>
         <div className="row">
         <div className="col-md-12 hand-img">

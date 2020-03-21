@@ -16,14 +16,16 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Switch>
-          <Route exact path="/"><Redirect to="/home" />
-          </Route>
-          <Route path="/home"><Home/></Route>
-          <Route path="/tips"><Tips/></Route>
-          <Route path="/healthcare"><Healthcare/></Route>
-          <Route path="/blog"><Blog/></Route>
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route exact path="/"><Redirect to="/home" />
+            </Route>
+            <Route path="/home"><Home/></Route>
+            <Route path="/tips"><Tips/></Route>
+            <Route path="/healthcare"><Healthcare/></Route>
+            <Route path="/blog"><Blog/></Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );

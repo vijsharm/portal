@@ -4,7 +4,7 @@ import Entertainment from '../common/entertainment/entertainment';
 
 const Tips = () =>{
     return (
-        <div className="container mt-30">
+        <div className="mt-30">
             <div className="row">
                 <Entertainment />
             </div>
