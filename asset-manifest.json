@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portal/static/css/main.e0b881ab.chunk.css",
+    "main.css": "/portal/static/css/main.b48e9d23.chunk.css",
     "main.js": "/portal/static/js/main.76da204c.chunk.js",
     "main.js.map": "/portal/static/js/main.76da204c.chunk.js.map",
     "runtime-main.js": "/portal/static/js/runtime-main.8778c6d7.js",
@@ -9,10 +9,10 @@
     "static/js/2.90d9f8ac.chunk.js": "/portal/static/js/2.90d9f8ac.chunk.js",
     "static/js/2.90d9f8ac.chunk.js.map": "/portal/static/js/2.90d9f8ac.chunk.js.map",
     "index.html": "/portal/index.html",
-    "precache-manifest.3fada5befb5655a72c86b243a08778df.js": "/portal/precache-manifest.3fada5befb5655a72c86b243a08778df.js",
+    "precache-manifest.50765ed6a593304fb01db220946869f2.js": "/portal/precache-manifest.50765ed6a593304fb01db220946869f2.js",
     "service-worker.js": "/portal/service-worker.js",
     "static/css/2.6e9a8f64.chunk.css.map": "/portal/static/css/2.6e9a8f64.chunk.css.map",
-    "static/css/main.e0b881ab.chunk.css.map": "/portal/static/css/main.e0b881ab.chunk.css.map",
+    "static/css/main.b48e9d23.chunk.css.map": "/portal/static/css/main.b48e9d23.chunk.css.map",
     "static/js/2.90d9f8ac.chunk.js.LICENSE.txt": "/portal/static/js/2.90d9f8ac.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "/portal/static/media/Aquaman.00c4930a.jpg",
     "static/media/GoodNewz.jpg": "/portal/static/media/GoodNewz.3bb131d0.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.8778c6d7.js",
     "static/css/2.6e9a8f64.chunk.css",
     "static/js/2.90d9f8ac.chunk.js",
-    "static/css/main.e0b881ab.chunk.css",
+    "static/css/main.b48e9d23.chunk.css",
     "static/js/main.76da204c.chunk.js"
   ]
 }
