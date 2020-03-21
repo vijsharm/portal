@@ -9,6 +9,11 @@ class Stopwatch extends Component {
       stopTimer = () => {
         this.setState({ timerOn: false });
         clearInterval(this.timer);
+        if(this.state.timerTime>10000){
+            this.props.showCard("pass");
+        }else{
+            this.props.showCard("fail");
+        }       
       };
       resetTimer = () => {
         this.setState({
