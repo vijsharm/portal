@@ -9,6 +9,29 @@
     height: 5rem;
     margin-left: 5px;
   }
+  .nav-link:hover {
+    svg {
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+    -ms-transform: rotateZ(720deg);
+    -o-transform: rotateZ(720deg);
+    transition: all .3s ease;
+    }
+  }
+
+  .brand-name:hover {
+    img {
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+    -ms-transform: rotateZ(720deg);
+    -o-transform: rotateZ(720deg);
+    transition: all .3s ease;
+    }
+  }
+  
+ 
 }
 .nav-color{
     background-color: $main-header !important;

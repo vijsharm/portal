@@ -76,6 +76,17 @@
         background-color: #5e8a87;
     }
 
+    .title:hover {
+        svg {
+        -webkit-transform: rotateZ(720deg);
+        -moz-transform: rotateZ(720deg);
+        transform: rotateZ(720deg);
+        -ms-transform: rotateZ(720deg);
+        -o-transform: rotateZ(720deg);
+        transition: all .3s ease;
+        }
+      }
+
 
 
 
