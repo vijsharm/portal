@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portal/static/css/main.04aa678d.chunk.css",
-    "main.js": "/portal/static/js/main.76da204c.chunk.js",
-    "main.js.map": "/portal/static/js/main.76da204c.chunk.js.map",
+    "main.css": "/portal/static/css/main.08ee67b1.chunk.css",
+    "main.js": "/portal/static/js/main.3664fdec.chunk.js",
+    "main.js.map": "/portal/static/js/main.3664fdec.chunk.js.map",
     "runtime-main.js": "/portal/static/js/runtime-main.8778c6d7.js",
     "runtime-main.js.map": "/portal/static/js/runtime-main.8778c6d7.js.map",
-    "static/css/2.6e9a8f64.chunk.css": "/portal/static/css/2.6e9a8f64.chunk.css",
-    "static/js/2.90d9f8ac.chunk.js": "/portal/static/js/2.90d9f8ac.chunk.js",
-    "static/js/2.90d9f8ac.chunk.js.map": "/portal/static/js/2.90d9f8ac.chunk.js.map",
+    "static/css/2.a39770de.chunk.css": "/portal/static/css/2.a39770de.chunk.css",
+    "static/js/2.385457b5.chunk.js": "/portal/static/js/2.385457b5.chunk.js",
+    "static/js/2.385457b5.chunk.js.map": "/portal/static/js/2.385457b5.chunk.js.map",
     "index.html": "/portal/index.html",
-    "precache-manifest.5a76b431726f471efdf3e6b3ffb6ec4e.js": "/portal/precache-manifest.5a76b431726f471efdf3e6b3ffb6ec4e.js",
+    "precache-manifest.d707915ff77e7497066f724ab3d9f072.js": "/portal/precache-manifest.d707915ff77e7497066f724ab3d9f072.js",
     "service-worker.js": "/portal/service-worker.js",
-    "static/css/2.6e9a8f64.chunk.css.map": "/portal/static/css/2.6e9a8f64.chunk.css.map",
-    "static/css/main.04aa678d.chunk.css.map": "/portal/static/css/main.04aa678d.chunk.css.map",
-    "static/js/2.90d9f8ac.chunk.js.LICENSE.txt": "/portal/static/js/2.90d9f8ac.chunk.js.LICENSE.txt",
+    "static/css/2.a39770de.chunk.css.map": "/portal/static/css/2.a39770de.chunk.css.map",
+    "static/css/main.08ee67b1.chunk.css.map": "/portal/static/css/main.08ee67b1.chunk.css.map",
+    "static/js/2.385457b5.chunk.js.LICENSE.txt": "/portal/static/js/2.385457b5.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "/portal/static/media/Aquaman.00c4930a.jpg",
     "static/media/GoodNewz.jpg": "/portal/static/media/GoodNewz.3bb131d0.jpg",
     "static/media/Hunters.jpg": "/portal/static/media/Hunters.66609957.jpg",
@@ -25,9 +25,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8778c6d7.js",
-    "static/css/2.6e9a8f64.chunk.css",
-    "static/js/2.90d9f8ac.chunk.js",
-    "static/css/main.04aa678d.chunk.css",
-    "static/js/main.76da204c.chunk.js"
+    "static/css/2.a39770de.chunk.css",
+    "static/js/2.385457b5.chunk.js",
+    "static/css/main.08ee67b1.chunk.css",
+    "static/js/main.3664fdec.chunk.js"
   ]
 }
