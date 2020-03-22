@@ -7,6 +7,10 @@ import {
   Nav,
   NavItem,
   NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from 'reactstrap';
 import './header.scss'
 import {Link} from 'react-router-dom';
@@ -15,16 +19,28 @@ import { faHome, faHeartbeat, faTv, faRetweet } from '@fortawesome/free-solid-sv
 
 const links = [
   { href: '/home', text: 'Home', icon : faHome },
-  { href: '/tips', text: 'Quarantine And Chill', icon: faTv },
+  { href: '/tips', text: 'Quarantine And Chill', icon: faTv, dropdown: true, options: ['Prime Videos', 'Netflix', 'Other Apps', 'Books'] },
   { href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
   { href: '/blog', text: 'Quarantine Stories', icon: faRetweet }
 ];
 
-const createNavItem = ({ href, text, className, icon }) => (
-  <NavItem>
+const createNavItem = ({ href, text, className, icon, dropdown, options }) => {
+  return (!dropdown ? <NavItem>
     <NavLink tag={Link} to={href} className={className}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}</NavLink>
-  </NavItem>
-);
+  </NavItem> : 
+    <UncontrolledDropdown nav inNavbar>
+      <DropdownToggle nav caret>
+        {text}
+      </DropdownToggle>
+      <DropdownMenu right>
+        {options.map(option => {return (
+          <DropdownItem>
+            <NavLink tag={Link} to={href + "?tab=" + option} className={className}>{option}</NavLink>
+          </DropdownItem>
+        )})}
+      </DropdownMenu>
+    </UncontrolledDropdown>)
+};
 
 export default class Header extends Component {
   constructor(props) {

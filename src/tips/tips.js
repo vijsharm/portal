@@ -1,23 +1,33 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './tips.scss';
 import Entertainment from '../common/entertainment/entertainment';
 import { Tabs, Tab } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
 
-const Tips = () =>{
+const Tips = (props) =>{
+    const [activeKey, setActiveKey] = useState('prime');
+
+    useEffect(() => {
+        const params = new URLSearchParams(props.location.search);
+        const tab = params.get('tab');
+        if (tab) {
+            setActiveKey(tab);
+        }
+    })
     return (
         <div className="mt-30 tips">
             <div className="row">
-            <Tabs defaultActiveKey="prime" id="uncontrolled-tab-example">
-                <Tab eventKey="prime" title="Amazon Prime">
+            <Tabs defaultActiveKey="Prime Videos" onSelect={k => setActiveKey(k)} activeKey={activeKey}>
+                <Tab eventKey='Prime Videos' title="Amazon Prime">
                     <Entertainment heading="Prime Videos" />
                 </Tab>
-                <Tab eventKey="netflix" title="Netflix">
+                <Tab eventKey="Netflix" title="Netflix">
                     <Entertainment heading="Netflix" />
                 </Tab>
-                <Tab eventKey="others" title="Other Apps">
+                <Tab eventKey="Other Apps" title="Other Apps">
                     <Entertainment heading="Other Apps" />
                 </Tab>
-                <Tab eventKey="books" title="Books">
+                <Tab eventKey="Books" title="Books">
                     <Entertainment heading="Books" />
                 </Tab>
             </Tabs>
@@ -26,4 +36,4 @@ const Tips = () =>{
     )
 }
 
-export default Tips;
+export default withRouter(Tips);

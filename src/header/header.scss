@@ -6,3 +6,23 @@
 .brand-name{
   font-size: 1.8rem !important;  
 }
+
+.dropdown-menu.show {
+  background-color: antiquewhite !important;
+  width: 100px;
+}
+
+@media (max-width: 576px) { 
+  .brand-name {
+    width: 70%;
+  }
+  .navbar-brand{
+    width: 70% !important;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.show {
+    background-color: antiquewhite;
+  }
+}
+
