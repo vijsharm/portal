@@ -30,7 +30,7 @@ const createNavItem = ({ href, text, className, icon, dropdown, options }) => {
   </NavItem> : 
     <UncontrolledDropdown nav inNavbar>
       <DropdownToggle nav caret>
-        {text}
+      <FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}
       </DropdownToggle>
       <DropdownMenu right>
         {options.map(option => {return (
