@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portal/static/css/main.6f8e3de2.chunk.css",
-    "main.js": "/portal/static/js/main.fe780cb2.chunk.js",
-    "main.js.map": "/portal/static/js/main.fe780cb2.chunk.js.map",
+    "main.css": "/portal/static/css/main.92b40a02.chunk.css",
+    "main.js": "/portal/static/js/main.e83740ac.chunk.js",
+    "main.js.map": "/portal/static/js/main.e83740ac.chunk.js.map",
     "runtime-main.js": "/portal/static/js/runtime-main.8778c6d7.js",
     "runtime-main.js.map": "/portal/static/js/runtime-main.8778c6d7.js.map",
     "static/css/2.a39770de.chunk.css": "/portal/static/css/2.a39770de.chunk.css",
     "static/js/2.3f81d246.chunk.js": "/portal/static/js/2.3f81d246.chunk.js",
     "static/js/2.3f81d246.chunk.js.map": "/portal/static/js/2.3f81d246.chunk.js.map",
     "index.html": "/portal/index.html",
-    "precache-manifest.9dd0d8dad827ec1075cfbd36c9dfa61e.js": "/portal/precache-manifest.9dd0d8dad827ec1075cfbd36c9dfa61e.js",
+    "precache-manifest.a6c87801dec35c19f0e82a7639315d36.js": "/portal/precache-manifest.a6c87801dec35c19f0e82a7639315d36.js",
     "service-worker.js": "/portal/service-worker.js",
     "static/css/2.a39770de.chunk.css.map": "/portal/static/css/2.a39770de.chunk.css.map",
-    "static/css/main.6f8e3de2.chunk.css.map": "/portal/static/css/main.6f8e3de2.chunk.css.map",
+    "static/css/main.92b40a02.chunk.css.map": "/portal/static/css/main.92b40a02.chunk.css.map",
     "static/js/2.3f81d246.chunk.js.LICENSE.txt": "/portal/static/js/2.3f81d246.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "/portal/static/media/Aquaman.00c4930a.jpg",
     "static/media/GoodNewz.jpg": "/portal/static/media/GoodNewz.3bb131d0.jpg",
     "static/media/Hunters.jpg": "/portal/static/media/Hunters.66609957.jpg",
     "static/media/StreetDancer.jpg": "/portal/static/media/StreetDancer.a54bfc4d.jpg",
     "static/media/Test.jpg": "/portal/static/media/Test.726807e0.jpg",
+    "static/media/header.scss": "/portal/static/media/header5.f1b5ad72.jpg",
     "static/media/healthcare.gif": "/portal/static/media/healthcare.666eda81.gif",
     "static/media/sad.gif": "/portal/static/media/sad.8bea7b28.gif",
     "static/media/success.gif": "/portal/static/media/success.ea7624de.gif"
@@ -27,7 +28,7 @@
     "static/js/runtime-main.8778c6d7.js",
     "static/css/2.a39770de.chunk.css",
     "static/js/2.3f81d246.chunk.js",
-    "static/css/main.6f8e3de2.chunk.css",
-    "static/js/main.fe780cb2.chunk.js"
+    "static/css/main.92b40a02.chunk.css",
+    "static/js/main.e83740ac.chunk.js"
   ]
 }
