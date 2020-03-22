@@ -12,7 +12,6 @@ import { faArrowRight, faTv } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'reactstrap';
 
 const Entertainment = (props) => {
-    debugger
     const titlesList = props.data.shows.map((item, index) => {
         return <div key={index} className="listing">
             <a className="title colorBlack" href={item.src}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={faTv} />{item.title}</a>

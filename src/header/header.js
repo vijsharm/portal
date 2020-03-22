@@ -16,6 +16,7 @@ import './header.scss'
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faHeartbeat, faTv, faRetweet } from '@fortawesome/free-solid-svg-icons';
+import Beats from 'assets/images/beats.svg';
 
 const links = [
   { href: '/home', text: 'Home', icon : faHome },
@@ -61,9 +62,9 @@ export default class Header extends Component {
   
   render() {
     return (
-      <div>
+      <div className="headerBar">
         <Navbar light expand="md" className="nav-color">
-          <NavbarBrand href="/" className="brand-name">SURVIVING HOME QUARANTINE</NavbarBrand>
+          <NavbarBrand href="/" className="brand-name">SURVIVING HOME QUARANTINE<img src={Beats} className="beatsImage"/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

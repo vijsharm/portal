@@ -15,7 +15,6 @@ const Tips = (props) =>{
             setActiveKey(tab);
         }
     }, [props.location.search]);
-    debugger
     return (
         <div className="mt-30 tips">
             <div className="row">
