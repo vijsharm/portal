@@ -6,15 +6,13 @@ import { withRouter } from 'react-router-dom';
 
 const Tips = (props) =>{
     const [activeKey, setActiveKey] = useState('prime');
-    const [urlTab, setUrlTab] = useState('');
     useEffect(() => {
         const params = new URLSearchParams(props.location.search);
         const tab = params.get('tab');
-        if (tab && tab !== urlTab) {
+        if (tab) {
             setActiveKey(tab);
-            setUrlTab(tab);
         }
-    })
+    }, [props.location.search])
     return (
         <div className="mt-30 tips">
             <div className="row">
