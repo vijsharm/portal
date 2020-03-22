@@ -1,15 +1,23 @@
+@import '../assets/style/variables.scss';
+
 .nav-color{
-    background-color: #d65b47!important;
+    background-color: $main-header !important;
     height : 13vh;
     font-size: 1.2rem;
 }
 .brand-name{
   font-size: 1.8rem !important;  
+  color: white !important;
+  font-weight: 700;
 }
 
 .dropdown-menu.show {
-  background-color: antiquewhite !important;
-  width: 100px;
+  background-color: #5e8a87 !important;
+  width: 240px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
 }
 
 @media (max-width: 576px) { 

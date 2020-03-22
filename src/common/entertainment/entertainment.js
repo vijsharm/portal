@@ -8,7 +8,9 @@ import Aquaman from '../../assets/images/prime/Aquaman.jpg';
 import SlideShowCarousel from './SlideShowCarousel';
 import SlideShow from './slideshow2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faTv } from '@fortawesome/free-solid-svg-icons';
+import { Button } from 'reactstrap';
+
 const Entertainment = (props) => {
     const primeItems = [
         {
@@ -65,9 +67,9 @@ const Entertainment = (props) => {
     ]
 
     const titlesList = primeItems.map((item, index) => {
-        return <li key={index}>
-            <a className="title" href={item.src}>{item.title} <FontAwesomeIcon style={{ fontSize: "30px", marginLeft: "20px"}} icon={faArrowRight} /></a>
-            <p>
+        return <div key={index} className="listing">
+            <a className="title colorBlack" href={item.src}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={faTv} />{item.title}</a>
+            <div>
                 <div className="rating">
                     Imdb Rating: {item.rating}
                 </div>
@@ -80,8 +82,9 @@ const Entertainment = (props) => {
                 <div className="description">
                     {item.description}
                 </div>
-            </p>
-        </li>
+                <Button color="secondary" size="lg" className="buttonLayot"><a className="title" href={item.src}>Watch Now</a></Button>
+            </div>
+        </div>
     })
     return (
         <div className="entertainment">
@@ -94,10 +97,8 @@ const Entertainment = (props) => {
                     <SlideShow items={primeItems} />
                 </div>
                 <div>
-                    <div style={{ textAlign: 'center' }}>
-                        <ol>
-                            {titlesList}
-                        </ol>
+                    <div style={{ textAlign: 'center', marginTop: "20px" }}>
+                        {titlesList}
                     </div>
                 </div>
             </div>
