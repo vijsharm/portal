@@ -13,7 +13,7 @@ const Tips = (props) =>{
         if (tab) {
             setActiveKey(tab);
         }
-    })
+    }, [])
     return (
         <div className="mt-30 tips">
             <div className="row">

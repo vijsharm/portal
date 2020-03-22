@@ -16,6 +16,12 @@
   .brand-name {
     width: 70%;
   }
+
+  .dropdown-menu.show {
+    border: 0px solid;
+    padding-left: 35px;
+  }
+
   .navbar-brand{
     width: 70% !important;
     overflow: hidden;
