@@ -3,6 +3,8 @@ import './tips.scss';
 import Entertainment from '../common/entertainment/entertainment';
 import { Tabs, Tab } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
+import { PrimeVideosList } from 'utils/data';
+import { OtherVideosList } from 'utils/data';
 
 const Tips = (props) =>{
     const [activeKey, setActiveKey] = useState('prime');
@@ -12,22 +14,23 @@ const Tips = (props) =>{
         if (tab) {
             setActiveKey(tab);
         }
-    }, [props.location.search])
+    }, [props.location.search]);
+    debugger
     return (
         <div className="mt-30 tips">
             <div className="row">
             <Tabs defaultActiveKey="Prime Videos" onSelect={k => setActiveKey(k)} activeKey={activeKey}>
                 <Tab eventKey='Prime Videos' title="Amazon Prime">
-                    <Entertainment heading="Prime Videos" />
+                    <Entertainment heading="Prime Videos" data={PrimeVideosList()} />
                 </Tab>
                 <Tab eventKey="Netflix" title="Netflix">
-                    <Entertainment heading="Netflix" />
+                    <Entertainment heading="Netflix" data={PrimeVideosList()} />
                 </Tab>
                 <Tab eventKey="Other Apps" title="Other Apps">
-                    <Entertainment heading="Other Apps" />
+                    <Entertainment heading="Other Apps" data={OtherVideosList()} />
                 </Tab>
                 <Tab eventKey="Books" title="Books">
-                    <Entertainment heading="Books" />
+                    <Entertainment heading="Books" data={PrimeVideosList()}/>
                 </Tab>
             </Tabs>
             </div>

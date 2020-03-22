@@ -12,61 +12,8 @@ import { faArrowRight, faTv } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'reactstrap';
 
 const Entertainment = (props) => {
-    const primeItems = [
-        {
-            title: 'Good Newz',
-            rating: '6.9',
-            starring: 'Akshay Kumar, Kareena Kapoor, Diljit Dosanjh, Kiara Advani',
-            src: 'https://www.primevideo.com/',
-            img: GoodNewz,
-            youtubeLink: 'https://www.youtube.com/embed/r9VJpqoAr84',
-            description: 'Two couples with the same surnames pursue in-vitro fertilization and wait for their upcoming babies. Trouble ensues when they find that the sperms of each couple have been mixed with each other.',
-            genres: 'Comedy, Drama, International'
-        },
-        {
-            title: 'The Test',
-            rating: '9.2',
-            starring: 'Justin Langer, Tim Paine, Nathan Lyon, Pat Cummins, Usman Khwaja...',
-            src: 'https://www.primevideo.com/',
-            img: Test,
-            youtubeLink: 'https://www.youtube.com/embed/a9g8exCgVP4',
-            description: 'The Test: A New Era for Australia’s Team, is a docuseries following the Australian Men’s Cricket Team, offering a behind-the-scenes look at how one of the world’s best cricket teams fell from grace and was forced to reclaim their title and integrity.',
-            genres: 'Documentary, Sport'
-        },
-        {
-            title: 'Hunters',
-            rating: '7.2',
-            starring: 'Al Pacino, Logan Lerman, Jerrica Hinton, LEna Olin',
-            src: 'https://www.primevideo.com/',
-            img: Hunters,
-            youtubeLink: 'https://www.youtube.com/embed/HBGkjmfIzAw',
-            description: 'Inspired by true events, HUNTERS follows a rag-tag team of Nazi Hunters in 1977 New York City who discover that hundreds of escaped Nazis are living in America. And so, they do what any bad-ass vigilante squad would do: they set out on a bloody quest for revenge and justice. But they soon discover a far-reaching conspiracy and must race against time to thwart the Nazis’ new genocidal plans.',
-            genres: 'Crime, Drama, Mystery '
-        },
-        {
-            title: 'Aquaman',
-            rating: '7.0',
-            starring: 'Jason Mamao, Amber Heard, William Dafoe, Patrick Wilson',
-            src: 'https://www.primevideo.com/',
-            img: Aquaman,
-            youtubeLink: 'https://www.youtube.com/embed/WDkg3h8PCVU',
-            description: '“Aquaman” reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him on the journey of his lifetime-to discover if he is worthy of who he was born to be…a king.',
-            genres: 'Adventure, Action, Science Fiction, Fantasy'
-        },
-        {
-            title: 'Street Dancer',
-            rating: '6.0',
-            starring: 'Varun Dhawan, Shraddha Kapoor, Prabhu Deva',
-            src: 'https://www.primevideo.com/',
-            img: Street,
-            youtubeLink: 'https://www.youtube.com/embed/2Ym7LJv6L_c',
-            description: 'A dance epic based on the multifarious colors of dance and the unity that occurs between two different groups coming together for a single cause. Set in London, the film is about 2 rival dance groups from India and Pakistan, who\'ve been competing against each other every time they meet.',
-            genres: 'Drama'
-
-        }
-    ]
-
-    const titlesList = primeItems.map((item, index) => {
+    debugger
+    const titlesList = props.data.shows.map((item, index) => {
         return <div key={index} className="listing">
             <a className="title colorBlack" href={item.src}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={faTv} />{item.title}</a>
             <div>
@@ -79,6 +26,12 @@ const Entertainment = (props) => {
                 <div className="rating">
                     Genres: {item.genres}
                 </div>
+                {item.episodes && <div className="rating">
+                    Episodes: {item.episodes}
+                </div>}
+                {item.app && <div className="rating">
+                    App: {item.app}
+                </div>}
                 <div className="description">
                     {item.description}
                 </div>
@@ -92,9 +45,12 @@ const Entertainment = (props) => {
                 Trending on {props.heading}!
             </div>
             <hr/>
+            <div className="shortDescription">
+                {props.data.shortDescription}
+            </div>
             <div className="bodySection col-sm-12">
                 <div>
-                    <SlideShow items={primeItems} />
+                    <SlideShow items={props.data.shows} />
                 </div>
                 <div>
                     <div style={{ textAlign: 'center', marginTop: "20px" }}>
