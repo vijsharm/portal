@@ -30,7 +30,9 @@
     transition: all .3s ease;
     }
   }
-  
+  .navbar-collapse.show {
+    z-index: 100;
+  }
  
 }
 .nav-color{

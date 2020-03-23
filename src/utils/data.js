@@ -68,6 +68,28 @@ export const NetflixVideosList = () => {
                 description: 'Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.',
                 genres: 'Action, Adventure, Drama',
                 episodes: 8
+            },
+            {
+                title: 'Locke & Key',
+                rating: '7.4',
+                starring: 'Darby Stanchfield, Connor Jessup, Emilia Jones',
+                src: 'https://www.netflix.com/',
+                img: Street,
+                youtubeLink: 'https://www.youtube.com/embed/_EonRi0yQOE',
+                description: 'After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father\'s death.',
+                genres: 'Drama, Fantasy, Horror',
+                episodes: 10
+            },
+            {
+                title: 'The Haunting of Hill House',
+                rating: '8.7',
+                starring: 'Henry Thomas, Oliver Jackson-Cohen, Kate Siegel',
+                src: 'https://www.netflix.com/',
+                img: Street,
+                youtubeLink: 'https://www.youtube.com/embed/VxEEGi9V0kI',
+                description: 'Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.',
+                genres: 'Drama, Horror, Mystery',
+                episodes: '2 Seasons'
             }
         ]}
     )
@@ -162,6 +184,18 @@ export const OtherVideosList = () => {
                 genres: 'Thriller',
                 episodes: 8,
                 app: 'Hotstar'
+            },
+            {
+                title: 'Mentalhood ',
+                rating: '9.1',
+                starring: 'Arshad Warsi, Barun Sobti, Anupriya Goenka',
+                src: 'https://www.altbalaji.com/',
+                img: GoodNewz,
+                youtubeLink: 'https://www.youtube.com/embed/ZM9-p5TZ5Ec',
+                description: 'The rules of parenting have changed. Every mother has her own strategy and some have their own game, with only one aim - to be the best of the best. Step into this #Mentalhood.',
+                genres: 'Drama',
+                app: 'AltBalaji',
+                episodes: 10
             },
             {
                 title: 'Tanhaji: The Unsung Warrior',

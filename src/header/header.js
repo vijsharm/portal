@@ -18,45 +18,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faHeartbeat, faTv, faRetweet } from '@fortawesome/free-solid-svg-icons';
 import Beats from 'assets/images/beats.svg';
 
-const links = [
-  { href: '/home', text: 'Home', icon : faHome },
-  { href: '/tips', text: 'Quarantine And Chill', icon: faTv, dropdown: true, options: ['Prime Videos', 'Netflix', 'Other Apps', 'Books'] },
-  { href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
-  { href: '/blog', text: 'Quarantine Stories', icon: faRetweet }
-];
-
-const createNavItem = ({ href, text, className, icon, dropdown, options }) => {
-  return (!dropdown ? <NavItem>
-    <NavLink tag={Link} to={href} className={className}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}</NavLink>
-  </NavItem> : 
-    <UncontrolledDropdown nav inNavbar>
-      <DropdownToggle nav caret>
-      <FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}
-      </DropdownToggle>
-      <DropdownMenu right>
-        {options.map(option => {return (
-          <DropdownItem>
-            <NavLink tag={Link} to={href + "?tab=" + option} className={className}>{option}</NavLink>
-          </DropdownItem>
-        )})}
-      </DropdownMenu>
-    </UncontrolledDropdown>)
-};
-
 export default class Header extends Component {
-  constructor(props) {
-    super(props);
+  state = {
+    links: [
+      { href: '/home', text: 'Home', icon : faHome },
+      { href: '/tips', text: 'Quarantine And Chill', icon: faTv, dropdown: true, options: ['Prime Videos', 'Netflix', 'Other Apps', 'Books'] },
+      { href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
+      { href: '/blog', text: 'Quarantine Stories', icon: faRetweet }
+    ],
+    isOpen: false
+  };
 
-    this.state = {
-      isOpen: false
-    };
+  createNavItem = ({ href, text, className, icon, dropdown, options }) => {
+    return (!dropdown ? <NavItem>
+      <NavLink onClick={this.toggle} tag={Link} to={href} className={className}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}</NavLink>
+    </NavItem> : 
+      <UncontrolledDropdown nav inNavbar>
+        <DropdownToggle nav caret>
+        <FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={icon} />{text}
+        </DropdownToggle>
+        <DropdownMenu right>
+          {options.map(option => {return (
+            <DropdownItem>
+              <NavLink onClick={this.toggle} tag={Link} to={href + "?tab=" + option} className={className}>{option}</NavLink>
+            </DropdownItem>
+          )})}
+        </DropdownMenu>
+      </UncontrolledDropdown>)
+  };
 
-    this.toggle = this.toggle.bind(this);
-  }
-
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
+  toggle = () => {
+    this.setState(prevstate => {
+      return {isOpen: !prevstate.isOpen}
     });
   }
   
@@ -68,7 +61,7 @@ export default class Header extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              {links.map(createNavItem)}
+              {this.state.links.map(this.createNavItem)}
             </Nav>
           </Collapse>
         </Navbar>
