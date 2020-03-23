@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8515614132e3b9274ea7a9ebd748c46e",
+    "revision": "3b3f83e9c84b7ee8c28a4deb4808ac78",
     "url": "/portal/index.html"
   },
   {
-    "revision": "6647a0b40ff33c95ffc2",
+    "revision": "6dbbc3cc75bb320400fa",
     "url": "/portal/static/css/2.a39770de.chunk.css"
   },
   {
-    "revision": "5fb7de22f5a9ee5bcc06",
-    "url": "/portal/static/css/main.d1d7579c.chunk.css"
+    "revision": "993f4479a93ad4f5f554",
+    "url": "/portal/static/css/main.77a15536.chunk.css"
   },
   {
-    "revision": "6647a0b40ff33c95ffc2",
-    "url": "/portal/static/js/2.f4a17b86.chunk.js"
+    "revision": "6dbbc3cc75bb320400fa",
+    "url": "/portal/static/js/2.7408e18c.chunk.js"
   },
   {
     "revision": "8b0b0209d23e8c647d2b956557587522",
-    "url": "/portal/static/js/2.f4a17b86.chunk.js.LICENSE.txt"
+    "url": "/portal/static/js/2.7408e18c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fb7de22f5a9ee5bcc06",
-    "url": "/portal/static/js/main.3f241349.chunk.js"
+    "revision": "993f4479a93ad4f5f554",
+    "url": "/portal/static/js/main.80fe1b00.chunk.js"
   },
   {
     "revision": "1421a0e2c121c71f9b09",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portal/static/media/beats.b6c42090.svg"
   },
   {
+    "revision": "035713cba1792c1eabd8ad994ebf417a",
+    "url": "/portal/static/media/death.035713cb.jpg"
+  },
+  {
     "revision": "f1b5ad724e75c4b8a1e877ab916efbfc",
     "url": "/portal/static/media/header5.f1b5ad72.jpg"
   },
@@ -68,7 +72,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portal/static/media/share.9cc34fd9.gif"
   },
   {
+    "revision": "64029378482d7abdaef580588e0ab201",
+    "url": "/portal/static/media/shiva.64029378.jpg"
+  },
+  {
     "revision": "ea7624defee2131651b110ac2286d58d",
     "url": "/portal/static/media/success.ea7624de.gif"
+  },
+  {
+    "revision": "e29db51140544f045f63f659078803bd",
+    "url": "/portal/static/media/theory.e29db511.jpg"
   }
 ]);
