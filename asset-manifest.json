@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portal/static/css/main.77a15536.chunk.css",
-    "main.js": "/portal/static/js/main.80fe1b00.chunk.js",
-    "main.js.map": "/portal/static/js/main.80fe1b00.chunk.js.map",
+    "main.css": "/portal/static/css/main.07034914.chunk.css",
+    "main.js": "/portal/static/js/main.914bbfe6.chunk.js",
+    "main.js.map": "/portal/static/js/main.914bbfe6.chunk.js.map",
     "runtime-main.js": "/portal/static/js/runtime-main.8778c6d7.js",
     "runtime-main.js.map": "/portal/static/js/runtime-main.8778c6d7.js.map",
     "static/css/2.a39770de.chunk.css": "/portal/static/css/2.a39770de.chunk.css",
-    "static/js/2.7408e18c.chunk.js": "/portal/static/js/2.7408e18c.chunk.js",
-    "static/js/2.7408e18c.chunk.js.map": "/portal/static/js/2.7408e18c.chunk.js.map",
+    "static/js/2.f2fe2706.chunk.js": "/portal/static/js/2.f2fe2706.chunk.js",
+    "static/js/2.f2fe2706.chunk.js.map": "/portal/static/js/2.f2fe2706.chunk.js.map",
     "index.html": "/portal/index.html",
-    "precache-manifest.07130bc7db4aa4c0224f660d1b9a63c0.js": "/portal/precache-manifest.07130bc7db4aa4c0224f660d1b9a63c0.js",
+    "precache-manifest.8e9e515d63f7666e6399f5e60d914f28.js": "/portal/precache-manifest.8e9e515d63f7666e6399f5e60d914f28.js",
     "service-worker.js": "/portal/service-worker.js",
     "static/css/2.a39770de.chunk.css.map": "/portal/static/css/2.a39770de.chunk.css.map",
-    "static/css/main.77a15536.chunk.css.map": "/portal/static/css/main.77a15536.chunk.css.map",
-    "static/js/2.7408e18c.chunk.js.LICENSE.txt": "/portal/static/js/2.7408e18c.chunk.js.LICENSE.txt",
+    "static/css/main.07034914.chunk.css.map": "/portal/static/css/main.07034914.chunk.css.map",
+    "static/js/2.f2fe2706.chunk.js.LICENSE.txt": "/portal/static/js/2.f2fe2706.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "/portal/static/media/Aquaman.00c4930a.jpg",
     "static/media/GoodNewz.jpg": "/portal/static/media/GoodNewz.3bb131d0.jpg",
     "static/media/Hunters.jpg": "/portal/static/media/Hunters.66609957.jpg",
     "static/media/StreetDancer.jpg": "/portal/static/media/StreetDancer.a54bfc4d.jpg",
     "static/media/Test.jpg": "/portal/static/media/Test.726807e0.jpg",
-    "static/media/beats.svg": "/portal/static/media/beats.b6c42090.svg",
+    "static/media/beats.svg": "/portal/static/media/beats.eae01f4c.svg",
     "static/media/death.jpg": "/portal/static/media/death.035713cb.jpg",
     "static/media/header.scss": "/portal/static/media/header5.f1b5ad72.jpg",
     "static/media/healthcare.gif": "/portal/static/media/healthcare.666eda81.gif",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.8778c6d7.js",
     "static/css/2.a39770de.chunk.css",
-    "static/js/2.7408e18c.chunk.js",
-    "static/css/main.77a15536.chunk.css",
-    "static/js/main.80fe1b00.chunk.js"
+    "static/js/2.f2fe2706.chunk.js",
+    "static/css/main.07034914.chunk.css",
+    "static/js/main.914bbfe6.chunk.js"
   ]
 }
