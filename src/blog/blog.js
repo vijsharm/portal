@@ -1,9 +1,19 @@
 import React from 'react';
-import Header from '../header/header';
+import Share from '../assets/images/blog/share.gif';
 
 const Blog = () =>{
-    return <div>
-        Healthcare</div>
+    return <div className="row">
+        <div className="col-md-6">
+        <br/>
+        <h5>Inspire others with your experience</h5>
+        <p>Let the world know your experience. Share your story of self-isolation at home like the things you did for first time, things you learnt etc. We'll publish it on our page with your pic.  </p>
+        <h5>WRITE TO US AT:</h5>
+        <p><a href="mailto:share@gmail.com">share@gmail.com</a></p>
+        </div>
+        <div className="col-md-6"> <br/> <img src={Share}></img></div>
+       
+        
+        </div>
 }
 
 export default Blog;
