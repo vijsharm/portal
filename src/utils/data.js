@@ -3,6 +3,12 @@ import Test from '../assets/images/prime/Test.jpg';
 import Hunters from '../assets/images/prime/Hunters.jpg';
 import Street from '../assets/images/prime/StreetDancer.jpg';
 import Aquaman from '../assets/images/prime/Aquaman.jpg';
+import Shiva from '../assets/images/books/shiva.jpg';
+import God from '../assets/images/books/god.jpg'
+import Kite from '../assets/images/books/kite.jpg'
+import Death from '../assets/images/books/death.jpg'
+import Theory from '../assets/images/books/theory.jpg'
+
 
 export const PrimeVideosList = () => {
     return (
@@ -155,5 +161,36 @@ export const OtherVideosList = () => {
                 episodes: 10
             }
         ]}
+    )
+}
+
+export const BooksList  = () =>{
+    return ([
+        {
+            title: 'Shiva Triology by Amish Tripathi',
+            img: Shiva,
+            description : 'It is one of bestselling series and combines 3 books - Immortals of Meluha, Secret Of Nagas and Oath Of Vayuputras.  The story is set in the land of Meluha and starts with the arrival of the Shiva. The Meluhans believe that Shiva is their fabled saviour Neelkanth. '
+        }, 
+        {
+            title: 'The God of Small Things by Arundhati Roy',
+            img: God,
+            description: 'The only novel by Arundhati Roy, received positive review along with controversy and criticism. It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the "Love Laws" that lay down "who should be loved, and how. And how much."'
+        },
+        {
+            title: 'The Kite Runner by Khaled Hosseini',
+            img: Kite,
+            description: 'The Kite Runner is the first novel by Afghan-American author Khaled Hosseini. It is a story of Amir, a young boy from Kabul, whose closest friend is Hassan. The story is set against a backdrop of tumultuous events, from the fall of Afghanistan monarchy through the Soviet military intervention, the exodus of refugees to Pakistan and the United States, and the rise of the Taliban regime'
+        },
+        {
+            title: 'Death; An Inside Story: A book for all those who shall die by Sadhguru',
+            img: Death,
+            description: 'These are just a few of the many aspects that Sadhguru explores in Death. He is talking from a place where various spiritual planes exist. He carefully explains each plane and answers some most-asked questions of him. What is death? Is it the cessation of life or a part of the continuum of existence?'
+        },
+        {
+            title: 'The Theory of Everything by Stephen Hawking',
+            img: Theory,
+            description: 'This book presents us with a bold new look at our universe, how it began, and how our old views of physics and tired theories about the creation of the universe were no longer relevant. In other words, Hawking gave us a new look at our world, our universe, and ourselves. '
+        }
+    ]
     )
 }

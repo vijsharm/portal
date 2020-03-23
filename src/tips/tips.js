@@ -4,7 +4,8 @@ import Entertainment from '../common/entertainment/entertainment';
 import { Tabs, Tab } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
 import { PrimeVideosList } from 'utils/data';
-import { OtherVideosList } from 'utils/data';
+import { OtherVideosList, BooksList } from 'utils/data';
+import Books from '../common/books/books';
 
 const Tips = (props) =>{
     const [activeKey, setActiveKey] = useState('prime');
@@ -29,7 +30,7 @@ const Tips = (props) =>{
                     <Entertainment heading="Other Apps" data={OtherVideosList()} />
                 </Tab>
                 <Tab eventKey="Books" title="Books">
-                    <Entertainment heading="Books" data={PrimeVideosList()}/>
+                    <Books heading="Books" data={BooksList()}/>
                 </Tab>
             </Tabs>
             </div>
