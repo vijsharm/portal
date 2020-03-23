@@ -186,9 +186,9 @@ export const OtherVideosList = () => {
                 app: 'Hotstar'
             },
             {
-                title: 'Mentalhood ',
+                title: 'Mentalhood',
                 rating: '9.1',
-                starring: 'Arshad Warsi, Barun Sobti, Anupriya Goenka',
+                starring: ' Karisma Kapoor, Sanjay Suri, Tillotama Shome',
                 src: 'https://www.altbalaji.com/',
                 img: GoodNewz,
                 youtubeLink: 'https://www.youtube.com/embed/ZM9-p5TZ5Ec',

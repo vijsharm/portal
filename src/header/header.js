@@ -15,7 +15,7 @@ import {
 import './header.scss'
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faHeartbeat, faTv, faRetweet } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHeartbeat, faTv, faRetweet, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import Beats from 'assets/images/beats.svg';
 
 export default class Header extends Component {
@@ -40,7 +40,7 @@ export default class Header extends Component {
         <DropdownMenu right>
           {options.map(option => {return (
             <DropdownItem>
-              <NavLink onClick={this.toggle} tag={Link} to={href + "?tab=" + option} className={className}>{option}</NavLink>
+              <NavLink onClick={this.toggle} tag={Link} to={href + "?tab=" + option} className={className}><FontAwesomeIcon style={{ fontSize: "22px", marginLeft: "10px", marginRight: "5px", marginTop: "6px"}} icon={faMobileAlt} />{option}</NavLink>
             </DropdownItem>
           )})}
         </DropdownMenu>
