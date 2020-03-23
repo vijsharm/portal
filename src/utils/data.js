@@ -9,7 +9,69 @@ import Kite from '../assets/images/books/kite.jpg'
 import Death from '../assets/images/books/death.jpg'
 import Theory from '../assets/images/books/theory.jpg'
 
-
+export const NetflixVideosList = () => {
+    return (
+        {
+            shortDescription: `Netflix is providing wide variety of tv shows and movies for ads-free online streaming. You can watch netflix on smart TVs, tablet, mobile app, on web browser or cast on any chromecast enabled device. You can also download
+            shows for watching later. You can also share app between your friends by making separate profiles. Netflix is providing trial version for just Rs 5 for 30 days and then there are various plans starting from Rs 199/month for mobile only version. If you have netflix subscription below is the list of best shows and movies to binge watch right now.`,
+            shows: [{
+                title: 'Money Heist',
+                rating: '8.5',
+                starring: 'Úrsula Corberó, Itziar Ituño, Álvaro Morte',
+                src: 'https://www.netflix.com/',
+                img: GoodNewz,
+                youtubeLink: 'https://www.youtube.com/embed/TFJwUwnShnA',
+                description: 'As season 4 is about to release, if you haven\'t watch old seasons then watching this should be the first thing in your to-do list. A group of unique robbers assault the Factory of Moneda and Timbre to carry out the most perfect robbery in the history of Spain and take home 2.4 billion euros.',
+                genres: 'Action, Crime, Mystery',
+                episodes: '3 Seasons'
+            },
+            {
+                title: 'Sex Education',
+                rating: '8.3',
+                starring: 'Asa Butterfield, Gillian Anderson, Ncuti Gatwa',
+                src: 'https://www.netflix.com/',
+                img: Test,
+                youtubeLink: 'https://www.youtube.com/embed/qZhb0Vl_BaM',
+                description: 'A teenage boy with a sex therapist mother teams up with a high school classmate to set up an underground sex therapy clinic at school.',
+                genres: 'Comedy, Drama',
+                episodes: '2 Seasons'
+            },
+            {
+                title: 'Delhi Crime',
+                rating: '8.5',
+                starring: 'Shefali Shah, Rajesh Tailang, Rasika Dugal',
+                src: 'https://www.netflix.com/',
+                img: Hunters,
+                youtubeLink: 'https://www.youtube.com/embed/jNuKwlKJx2E',
+                description: 'Based on the Nirbhaya case, Delhi Crime follows the Delhi Police investigation into the finding of the men who perpetrated this crime.',
+                genres: 'Crime, Drama',
+                episodes: 7
+            },
+            {
+                title: 'Stranger Things',
+                rating: '8.8',
+                starring: 'Millie Bobby Brown, Finn Wolfhard, Winona Ryder',
+                src: 'https://www.netflix.com/',
+                img: Aquaman,
+                youtubeLink: 'https://www.youtube.com/embed/b9EkMc79ZSU',
+                description: 'When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.',
+                genres: 'Drama, Fantasy, Horror',
+                episodes: '3 Seasons'
+            },
+            {
+                title: 'The Witcher',
+                rating: '8.3',
+                starring: ' Henry Cavill, Freya Allan, Anya Chalotra',
+                src: 'https://www.netflix.com/',
+                img: Street,
+                youtubeLink: 'https://www.youtube.com/embed/cSqi-8kAMmM',
+                description: 'Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.',
+                genres: 'Action, Adventure, Drama',
+                episodes: 8
+            }
+        ]}
+    )
+}
 export const PrimeVideosList = () => {
     return (
         {

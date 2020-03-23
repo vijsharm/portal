@@ -3,8 +3,7 @@ import './tips.scss';
 import Entertainment from '../common/entertainment/entertainment';
 import { Tabs, Tab } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
-import { PrimeVideosList } from 'utils/data';
-import { OtherVideosList, BooksList } from 'utils/data';
+import { OtherVideosList, BooksList, NetflixVideosList, PrimeVideosList } from 'utils/data';
 import Books from '../common/books/books';
 
 const Tips = (props) =>{
@@ -24,7 +23,7 @@ const Tips = (props) =>{
                     <Entertainment heading="Prime Videos" data={PrimeVideosList()} />
                 </Tab>
                 <Tab eventKey="Netflix" title="Netflix">
-                    <Entertainment heading="Netflix" data={PrimeVideosList()} />
+                    <Entertainment heading="Netflix" data={NetflixVideosList()} />
                 </Tab>
                 <Tab eventKey="Other Apps" title="Other Apps">
                     <Entertainment heading="Other Apps" data={OtherVideosList()} />
