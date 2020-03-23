@@ -1,7 +1,8 @@
 @import '../assets/style/variables.scss';
 .headerBar {
   .navbar {
-    height: 160px !important;
+    height: auto;
+    min-height: 160px !important;
     background-image: url(../assets/images/header5.jpg);
     background-repeat: no-repeat;
   } 
@@ -44,8 +45,9 @@
   font-size: 2.0rem !important;  
   color: white !important;
   font-weight: 700;
-  line-height: 100px !important;
+  line-height: 2.0rem !important;
   font-family: cursive;
+  white-space: unset !important;
 }
 
 .dropdown-menu.show {
