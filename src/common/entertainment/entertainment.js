@@ -40,10 +40,10 @@ const Entertainment = (props) => {
     })
     return (
         <div className="entertainment">
+            <br/>
             <div className="heading">
                 Trending on {props.heading}!
             </div>
-            <hr/>
             <div className="shortDescription">
                 {props.data.shortDescription}
             </div>
