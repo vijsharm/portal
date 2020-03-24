@@ -7,7 +7,7 @@ import { OtherVideosList, BooksList, NetflixVideosList, PrimeVideosList } from '
 import Books from '../common/books/books';
 
 const Tips = (props) =>{
-    const [activeKey, setActiveKey] = useState('prime');
+    const [activeKey, setActiveKey] = useState('Prime Videos');
     useEffect(() => {
         const params = new URLSearchParams(props.location.search);
         const tab = params.get('tab');

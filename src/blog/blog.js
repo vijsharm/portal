@@ -10,7 +10,7 @@ const Blog = () =>{
         <h5>WRITE TO US AT:</h5>
         <p><a href="mailto:share@gmail.com">share@gmail.com</a></p>
         </div>
-        <div className="col-md-6"> <br/> <img src={Share}></img></div>
+        <div className="col-md-6"> <br/> <img src={Share} style={{maxWidth: '100%'}}></img></div>
        
         
         </div>
