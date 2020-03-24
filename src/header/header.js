@@ -23,7 +23,7 @@ export default class Header extends Component {
     links: [
       { href: '/home', text: 'Home', icon : faHome },
       { href: '/tips', text: 'Quarantine And Chill', icon: faTv, dropdown: true, options: ['Prime Videos', 'Netflix', 'Other Apps', 'Books'] },
-      { href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
+      //{ href: '/healthcare', text: 'Health Care', icon: faHeartbeat },
       { href: '/blog', text: 'Quarantine Stories', icon: faRetweet }
     ],
     isOpen: false

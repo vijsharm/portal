@@ -15,9 +15,8 @@ const Healthcare = () =>{
         <img src={Handshake}></img>
         </div>
         </div>
-        <div className="row">
-            
-            <div>
+        <div className="row">   
+            <div style={{margin: '0 auto', textAlign: 'center'}}>
             <br/><br/>
             <h3>Want to check your strength of your lungs?</h3>
         <p>Here's the solution - Just start this timer and hold on your breath.</p>
