@@ -32,7 +32,7 @@
     border: 2px solid grey;
     border-radius: 4px;
     padding: 20px;
-    max-width: 400px;
+    width: 400px;
     background-color: rgb(22, 27, 31);
     box-shadow: 0 3px 6px rgb(12, 12, 12);
   }
@@ -72,7 +72,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
-    margin-left: 5rem;
+    margin: 20px 0;
     img{
         margin: 20px;
     }
@@ -85,14 +85,18 @@
     text-align: center;
   }
   @media only screen and (max-width: 600px) {
-    .card {
-      margin: 0;
-    }
     .Stopwatch-display{
       font-size: 45px;
+    }
+    .card{
+      width: 95%;
     }
     .Stopwatch button {
       padding: 12px 25px;
       font-size: 17px;
+    }
+    .Stopwatch {
+      max-width: 300px;
+      width: auto;
     }
   }

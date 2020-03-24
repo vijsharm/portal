@@ -17,7 +17,7 @@ const Tips = (props) =>{
     }, [props.location.search]);
     return (
         <div className="mt-30 tips">
-            <div className="row">
+            <div className="">
             <Tabs defaultActiveKey="Prime Videos" onSelect={k => setActiveKey(k)} activeKey={activeKey}>
                 <Tab eventKey='Prime Videos' title="Amazon Prime">
                     <Entertainment heading="Prime Videos" data={PrimeVideosList()} />
