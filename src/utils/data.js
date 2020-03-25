@@ -100,8 +100,8 @@ export const PrimeVideosList = () => {
             shortDescription: `In Amazon prime videos you can stream many latest movies and original TV shows ads free along with ads-free music and free fast delivery on amazon in just Rs. 129/month or Rs. 999/year.
             You can stream on mobile, laptop, tablet or you can stream or cast on TVs. If you have amazon prime subscripttion you can check below list of shows and movies which are trending right now on prime videos.`,
             shows: [{
-                title: 'Good Newz',
-                rating: '6.9',
+                title: 'Good Newwz',
+                rating: '7.2',
                 starring: 'Akshay Kumar, Kareena Kapoor, Diljit Dosanjh, Kiara Advani',
                 src: 'https://www.primevideo.com/',
                 img: GoodNewz,
@@ -110,15 +110,15 @@ export const PrimeVideosList = () => {
                 genres: 'Comedy, Drama, International'
             },
             {
-                title: 'The Test',
+                title: 'The Test: A New Era For Australia\'s Team',
                 rating: '9.2',
-                starring: 'Justin Langer, Tim Paine, Nathan Lyon, Pat Cummins, Usman Khwaja...',
+                starring: 'Justin Langer, Tim Paine, Nathan Lyon, Pat Cummins, Usman Khwaja etc.',
                 src: 'https://www.primevideo.com/',
                 img: Test,
                 youtubeLink: 'https://www.youtube.com/embed/a9g8exCgVP4',
                 description: 'The Test: A New Era for Australia’s Team, is a docuseries following the Australian Men’s Cricket Team, offering a behind-the-scenes look at how one of the world’s best cricket teams fell from grace and was forced to reclaim their title and integrity.',
                 genres: 'Documentary, Sport',
-                episodes: 10
+                episodes: 8
             },
             {
                 title: 'Hunters',
@@ -142,16 +142,38 @@ export const PrimeVideosList = () => {
                 genres: 'Adventure, Action, Science Fiction, Fantasy'
             },
             {
-                title: 'Street Dancer',
-                rating: '6.0',
-                starring: 'Varun Dhawan, Shraddha Kapoor, Prabhu Deva',
+                title: 'Modern Love',
+                rating: '8.0',
+                starring: 'Anne Hathaway, Tina Fey, Andy Garcia',
                 src: 'https://www.primevideo.com/',
                 img: Street,
-                youtubeLink: 'https://www.youtube.com/embed/2Ym7LJv6L_c',
-                description: 'A dance epic based on the multifarious colors of dance and the unity that occurs between two different groups coming together for a single cause. Set in London, the film is about 2 rival dance groups from India and Pakistan, who\'ve been competing against each other every time they meet.',
-                genres: 'Drama'
-    
+                youtubeLink: 'https://www.youtube.com/embed/650Mt63HIBU',
+                description: 'An unlikely friendship. A lost love resurfaced. A marriage at its turning point. A date that might not have been a date. An unconventional new family. These are unique stories about the joys and tribulations of love, each inspired by a real-life personal essay from the beloved New York Times column "Modern Love."',
+                genres: 'Comedy, Romance',
+                episodes: 8
+            },
+            {
+                title: 'The Office',
+                rating: '8.9',
+                starring: 'Steve Carell, Jenna Fischer, John Krasinski',
+                src: 'https://www.primevideo.com/',
+                img: Street,
+                youtubeLink: 'https://www.youtube.com/embed/cRpbuYnHWQY',
+                description: 'There is Indian version of this show as well straming on Hotstar. A mediocre paper company in the hands of Scranton, PA branch manager Michael Scott. This mockumentary follows the everyday lives of the manager and the employees he "manages." The crew follows the employees around 24/7 and captures their quite humorous and bizarre encounters as they will do what it takes to keep the company thriving.',
+                genres: 'Comedy',
+                episodes: '9 Seasons'
+            },
+            {
+                title: 'Contagion (2011)',
+                rating: '6.7',
+                starring: 'Matt Damon, Kate Winslet, Jude Law',
+                src: 'https://www.primevideo.com/',
+                img: Street,
+                youtubeLink: 'https://www.youtube.com/embed/4sYSyuuLk5g',
+                description: 'Healthcare professionals, government officials and everyday people find themselves in the midst of a pandemic as the CDC works to find a cure.',
+                genres: 'Action, Drama, Thriller',
             }
+            
         ]}
     )
 }
